@@ -9,7 +9,7 @@ import java.util.List;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-public class AppTest {
+public class AppTest {  
     @Test
     public void should_use_50_percentage_sales_promotion(){
         List<String> inputs = Arrays.asList("ITEM0001 x 1", "ITEM0013 x 2", "ITEM0022 x 1");
